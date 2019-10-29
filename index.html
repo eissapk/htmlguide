@@ -1,0 +1,4311 @@
+<!--
+___________ .___    _________   _________    _____
+\_   _____/ |   |  /   _____/  /   _____/   /  _  \
+ |    __)_  |   |  \_____  \   \_____  \   /  /_\  \
+ |        \ |   |  /        \  /        \ /    |    \
+/_______  / |___| /_______  / /_______  / \____|__  /
+        \/                \/          \/          \/
+-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML 5 Guide</title>
+    <link rel="icon" href="img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <a id="top-btn" href="#top">up</a>
+    <!-- START PROFILE -->
+    <div id="profile-container" id="top">
+        <div id="inner-profile-container">
+            <img src="img/avatar.jpg" alt="author">
+        </div>
+        <h1 id="h1" title="Author">eissa saber</h1>
+        <h3 id="h3">HTML 5 Guide</h3>
+        <div id="link-con"><a title="Github" id="link-btn" href="https://github.com/eissapk/htmlguide" target="_blank">contribute</a></div>
+    </div>
+    <!-- END PROFILE -->
+
+    <!-- START CODE -->
+    <main id="main">
+
+        <!-- Start doctype -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">html5 declaration</label>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                <figcaption>
+                    <div class="lan">html</div>
+                    <div class="win-btns"><span></span><span></span><span></span></div>
+                </figcaption>
+
+<pre><code>&lt;&excl;--
+
+&diams; &lt;&excl;DOCTYPE html&gt; supports HTML5 and XML
+&diams; &lt;&excl;doctype html&gt; supports HTML5 only
+
+--&gt;
+
+&lt;&excl;<span class="tag">DOCTYPE</span> <span class="attribute">html</span>&gt;
+&lt;&excl;<span class="tag">doctype</span> <span class="attribute">html</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End doctype tag -->
+
+        <!-- Start html tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">html tag</label>
+            </div>
+            <!-- END INTERFACE -->
+
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+&diams; html tag had two attributes lang and dir
+&diams; lang attribute is for the language [en, ar]
+&diams; dir attribute is for the direction [ltr, rtl]
+
+--&gt;
+
+&lt;<span class="tag">html</span> <span class="attribute">lang</span>=<span class="attribute-value">"en"</span> <span class="attribute">dir</span>=<span class="attribute-value">"ltr"</span>&gt;
+&lt;<span class="tag">html</span> <span class="attribute">lang</span>=<span class="attribute-value">"ar"</span> <span class="attribute">dir</span>=<span class="attribute-value">"rtl"</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End html tag -->
+
+        <!-- Start meta tag 1 -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">meta tag</label>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+&diams; must be the 1st line of the head tag
+&diams; charset attribute has many values
+&diams; UTF-8 this value for supporting english and arabic together
+
+--&gt;
+
+&lt;<span class="tag">meta</span> <span class="attribute">charset</span>=<span class="attribute-value">"UTF-8"</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End meta tag -->
+
+        <!-- Start title tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">title tag</label>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+&diams; title tag is for setting the whole html document name
+&diams; i recommend it to be the 2nd line after the meta utf-8
+
+--&gt;
+
+&lt;<span class="tag">title</span>&gt;HTML 5 Guide&lt;/<span class="tag">title</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End title tag -->
+
+        <!-- Start link tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">link tag</label>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+&diams; link tag with rel="icon" attribute is for setting an icon for the document on the page tabe
+&diams; i recommend it to be the 3nd line after the meta utf-8 and title tag
+
+--&gt;
+
+&lt;<span class="tag">link</span> <span class="attribute">rel</span>=<span class="attribute-value">"icon"</span> <span class="attribute">href</span>=<span class="attribute-value">"img/id.png"</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End link tag -->
+
+        <!-- Start meta tag 2 -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">meta tag</label>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+&diams; This tag to initiate the resposiveness
+
+--&gt;
+
+&lt;<span class="tag">meta</span> <span class="attribute">name</span>=<span class="attribute-value">"viewport"</span> <span class="attribute">content</span>=<span class="attribute-value">"width=device-width, initial-scale=1.0"</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End meta tag -->
+
+        <!-- Start link tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">link tag</label>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+&diams; This link tag is for stylesheet [eg. css and google fonts] | no need for minetype
+&diams; link tag has two attributes href and rel
+&diams; rel attribute maybe has a value stylesheet
+&diams; href has the source of the css file that maybe local or not
+
+--&gt;
+
+&lt;<span class="tag">link</span> <span class="attribute">rel</span>=<span class="attribute-value">"stylesheet"</span> <span class="attribute">href</span>=<span class="attribute-value">"style.css"</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End meta tag -->
+
+        <!-- Start self-closing -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">importance of self-closing</label>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+&diams; &lt;link/&gt; this called self-close and it's important for xml and works with html5 also
+&diams; so it's better to put the self close to support xml
+
+--&gt;
+
+&lt;<span class="tag">link</span> /&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End self-closing -->
+
+        <!-- Start making elements using javascript -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">creating elements by javascript</label>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Making an Html elements by javascript:
+document.createElement("eisa");
+
+for an example if you are using IE browser and it doesn't support html5 tags like &lt;section&gt;&lt;/section&gt; then code as follows
+document.createElement("section");
+and give it a styling in css like display:block;
+but it's better to use this plugin instead of all that <a style="color: #a96cd7;" href="https://github.com/aFarkas/html5shiv" target="_blank">html5shiv</a> on github and must add this plugin in head after style sheets
+
+--&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End making elements using javascript -->
+
+        <!-- Start html5shiv -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">html5shiv</label>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--[if lt IE 9]&gt;
+&lt;script src="<a style="color: #a96cd7;" href="https://github.com/aFarkas/html5shiv" target="_blank">html5shiv.js</a>"&gt;&lt;/script&gt;
+&lt;&excl;[endif]--&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End html5shiv -->
+
+        <!-- Start semantic, nonsymantic tags, validation and format -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">semantic, nonsymantic tags, validation and format</label>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+[Semantic Tags: refer to their content]
+===========
+[header - nav - section - article - aside - footer]
+
+[Nonsemantic Tags: don't refer to their content]
+===========
+[div - span]
+====================================================
+
+capital letters , single quotes , double quotes , no quotes all these are valid =&gt; (DIV, CLASS, ' ', " ", no quotes )
+&lt;<span class="tag">div</span> <span class="attribute">class</span>=<span class="attribute-value">"wrapper"</span>&gt;&lt;/<span class="tag">div</span>&gt;
+&lt;<span class="tag">div</span> <span class="attribute">class</span>=<span class="attribute-value">'wrapper'</span>&gt;&lt;/<span class="tag">div</span>&gt;
+&lt;<span class="tag">div</span> <span class="attribute">class</span>=<span class="attribute-value">wrapper</span>&gt;&lt;/<span class="tag">div</span>&gt;
+&lt;<span class="tag">DIV</span> <span class="attribute">CLASS</span>=<span class="attribute-value">"wrapper"</span>&gt;&lt;/<span class="tag">DIV</span>&gt;
+you must use quotes in case you have more than one class at the same tag
+====================================================
+
+the below format is much better than the normal one use it if you want as it's validated
+&lt;<span class="tag">form</span>
+<span class="attribute">action</span>=<span class="attribute-value">"file.php"</span>
+<span class="attribute">method</span>=<span class="attribute-value">"GET"</span>
+<span class="attribute">name</span>=<span class="attribute-value">"form"</span>
+<span class="attribute">id</span>=<span class="attribute-value">"container"</span>
+<span class="attribute">class</span>=<span class="attribute-value">"con"</span>
+<span class="attribute">novalidate</span>&gt;
+
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"text"</span>&gt;
+
+&lt;/<span class="tag">form</span>&gt;
+
+--&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End semantic, nonsymantic tags, validation and format -->
+
+        <!-- Start obsolete -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">obsoleted tags and attributes</label>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+[REMOVED TAGS]------------[NEW TAGS]
+===========---------------===========
+&lt;acronym&gt;------------------&lt;abbr&gt;
+&lt;applet&gt;--------------------&lt;object&gt;
+&lt;basefont&gt;------------------css
+&lt;strike&gt;----------------------css [line through]
+&lt;tt&gt;-------------------------css [font-family]
+&lt;big&gt;-----------------------css
+&lt;center&gt;-------------------css
+&lt;dir&gt;-----------------------&lt;ul&gt; - &lt;ol&gt;
+&lt;font&gt;---------------------css
+&lt;frameset&gt;---------------&lt;iframe&gt;
+&lt;hgroup&gt;
+&lt;image&gt;
+&lt;isindex&gt;
+&lt;blink&gt;
+&lt;command&gt;
+&lt;content&gt;
+&lt;dialog&gt;
+&lt;keygen&gt;
+&lt;listing&gt;
+&lt;element&gt;
+&lt;frame&gt;
+&lt;marquee&gt;
+&lt;menu&gt;
+&lt;bgsound&gt;
+&lt;menuitem&gt;
+&lt;multicol&gt;
+&lt;nextid&gt;
+&lt;nobr&gt;
+&lt;noembed&gt;
+&lt;noframes&gt;
+&lt;plaintext&gt;
+&lt;shadow&gt;
+&lt;spacer&gt;
+&lt;xmp&gt;
+&lt;input type="datetime"&gt;
+===========
+[REMOVED ATTRIBUTES]
+===========
+dropzone
+spellcheck
+translate
+x-ms-acceleratorkey
+x-ms-format-detection
+
+--&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End obsolete -->
+
+        <!-- Start Header tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">header tag</label>
+                <header>
+                    <h1>title</h1>
+                    <img src="https://via.placeholder.com/900">
+                </header>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                    </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.
+&diams; it can be a header of a page or article tag
+
+Attributes:
+===========
+&diams; Global Attributes
+
+Best Practice:
+===========
+&diams; body &gt; header &gt; h1, img
+&diams; body &gt; article &gt; header &gt; h2, p
+
+Other:
+===========
+&diams; block tag
+&check; Full Support 
+
+--&gt;
+
+&lt;<span class="tag">header</span>&gt;
+&lt;<span class="tag">h1</span>&gt;title&lt;/<span class="tag">h1</span>&gt;
+&lt;<span class="tag">img</span> <span class="attribute">src</span>=<span class="attribute-value">"https://via.placeholder.com/900"</span>&gt;
+&lt;/<span class="tag">header</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End Header tag -->
+
+        <!-- Start nav tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">nav tag</label>
+                <nav>
+                    <ul>
+                        <li><a href="javascript:void(0)">home</a></li>
+                        <li><a href="javascript:void(0)">about</a></li>
+                        <li><a href="javascript:void(0)">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                    </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.
+
+Attributes:
+===========
+&diams; Global Attributes
+
+Best Practice:
+===========
+&diams; body &gt; nav &gt; ul &gt; li &gt; a
+
+Other:
+===========
+&diams; block tag
+&check; Full Support 
+
+--&gt;
+
+&lt;<span class="tag">nav</span>&gt;
+&lt;<span class="tag">ul</span>&gt;
+&lt;<span class="tag">li</span>&gt;&lt;<span class="tag">a</span> <span class="attribute">href</span>=<span class="attribute-value">"#"</span>&gt;home&lt;/<span class="tag">a</span>&gt;&lt;/<span class="tag">li</span>&gt;
+&lt;<span class="tag">li</span>&gt;&lt;<span class="tag">a</span> <span class="attribute">href</span>=<span class="attribute-value">"#"</span>&gt;about&lt;/<span class="tag">a</span>&gt;&lt;/<span class="tag">li</span>&gt;
+&lt;<span class="tag">li</span>&gt;&lt;<span class="tag">a</span> <span class="attribute">href</span>=<span class="attribute-value">"#"</span>&gt;contact&lt;/<span class="tag">a</span>&gt;&lt;/<span class="tag">li</span>&gt;
+&lt;/<span class="tag">ul</span>&gt;
+&lt;/<span class="tag">nav</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End nav tag -->
+
+        <!-- Start article tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">article tag</label>
+                <article>
+                        <h1>headline</h1>
+                        <p>paragraph</p>
+                </article>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                    </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry.
+&diams; it is a stand alone content like comments | what ever i put in article tag should make sense regardless of the rest of the content of the website or the site it self.
+
+Attributes:
+===========
+&diams; Global Attributes
+
+Best Practice:
+===========
+&diams; body &gt; article &gt; h1, p
+
+Other:
+===========
+&diams; block tag
+&check; Full Support 
+
+--&gt;
+
+&lt;<span class="tag">article</span>&gt;
+&lt;<span class="tag">h1</span>&gt;headline&lt;/<span class="tag">h1</span>&gt;
+&lt;<span class="tag">p</span>&gt;paragraph&lt;/<span class="tag">p</span>&gt;
+&lt;/<span class="tag">article</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End article tag -->
+
+        <!-- Start section tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">section tag</label>
+                <section>
+                    <h1>heading</h1>
+                    <p>paragraph</p>
+                </section>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                    </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents a standalone section — which doesn't have a more specific semantic element to represent it — contained within an HTML document. Typically, but not always, sections have a heading.
+&diams; Do not use the section element as a generic container; this is what div is for, especially when the sectioning is only for styling purposes.
+
+Attributes:
+===========
+&diams; Global Attributes
+
+Best Practice:
+===========
+&diams; body &gt; section &gt; h1, p 
+
+Other:
+===========
+&diams; block tag
+&check; Full Support 
+
+--&gt;
+
+&lt;<span class="tag">section</span>&gt;
+&lt;<span class="tag">h1</span>&gt;headline&lt;/<span class="tag">h1</span>&gt;
+&lt;<span class="tag">p</span>&gt;paragraph&lt;/<span class="tag">p</span>&gt;
+&lt;/<span class="tag">section</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End section tag -->
+
+        <!-- Start div tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">div tag</label>
+                <div>
+                    <a href="javascript:void(0)">link1</a>
+                    <a href="javascript:void(0)">link2</a>
+                    <a href="javascript:void(0)">link3</a>
+                </div>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                    </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; used as generic container of any thing
+
+Attributes:
+===========
+&diams; Global Attributes
+
+Best Practice:
+===========
+&diams; body &gt; div &gt; any element
+
+Other:
+===========
+&diams; block tag
+&check; Full Support 
+
+--&gt;
+
+&lt;<span class="tag">div</span>&gt;
+&lt;<span class="tag">a</span>&gt;link1&lt;/<span class="tag">a</span>&gt;
+&lt;<span class="tag">a</span>&gt;link2&lt;/<span class="tag">a</span>&gt;
+&lt;<span class="tag">a</span>&gt;link3&lt;/<span class="tag">a</span>&gt;
+&lt;/<span class="tag">div</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End div tag -->
+
+        <!-- Start aside tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">aside tag</label>
+                <aside>aside tag</aside>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                    </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; defines some content aside from the content it is placed in & should be related to the surrounding content.
+
+Attributes:
+===========
+&diams; Global Attributes
+
+Best Practice:
+===========
+&diams; body &gt; aside
+
+Other:
+===========
+&diams; block tag
+&check; Full Support 
+
+--&gt;
+
+&lt;<span class="tag">aside</span>&gt;&lt;/<span class="tag">aside</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End aside tag -->
+
+        <!-- Start footer tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">footer tag</label>
+                <footer>copyright</footer>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                    </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; defines a footer for a document or section
+&diams; should contain information about its containing element
+&diams; typically contains:
+authorship information
+copyright information
+contact information
+sitemap
+back to top links
+related documents
+&diams; You can have several footer elements in one document.
+
+Attributes:
+===========
+&diams; Global Attributes
+
+Best Practice:
+===========
+&diams; body &gt; footer
+
+Other:
+===========
+&diams; block tag
+&check; Full Support 
+
+--&gt;
+
+&lt;<span class="tag">footer</span>&gt;copyright&lt;/<span class="tag">footer</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End footer tag -->
+
+        <!-- Start abbr tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">abbr tag</label>
+                <p>Ashok's joke made me <abbr title="Laugh Out Loud">LOL</abbr> big time.</p>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                    </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents an abbreviation the optional title attribute can provide an expansion or description for the abbreviation. If present, title must contain this full description and nothing else.
+&diams; to provide an expansion or definition outside the flow of the document's content.
+&diams; define an abbreviation which may be unfamiliar to the reader.
+
+Attributes:
+===========
+&diams; title &rarr; has the full description of the abbr tag
+
+Best Practice:
+===========
+&diams; body &gt; p &gt; abbr
+
+Other:
+===========
+&diams; inline tag
+&check; Full Support 
+
+--&gt;
+
+&lt;<span class="tag">p</span>&gt;Ashok's joke made me &lt;<span class="tag">abbr</span> <span class="attribute">title</span>=<span class="attribute-value">"Laugh Out Loud"</span>&gt;LOL&lt;/<span class="tag">abbr</span>&gt; big time.&lt;/<span class="tag">p</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End abbr tag -->
+
+        <!-- Start Anchor tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">anchor tag</label>
+                <a href="https://www.google.com" target="_blank">click here</a>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; creates a hyperlink to other web pages, files, locations within the same page, email addresses, or any other URL
+
+Attributes:
+===========
+&diams; href &rarr; ftp:, mailto:, tel:, #navigate-in-html-doc, javascript:void(0) | contains a URL that will be navigated to it
+&diams; target &rarr; _blank, _self | [blank opens new window tab] [self is the default]
+&diams; download &rarr; This attribute instructs browsers to download a URL instead of navigating to it
+&diams; title &rarr; displays a sentence on mouse hover
+
+Best Practice:
+===========
+&diams; ul &gt; li &gt; a
+
+Other:
+===========
+&diams; inline tag
+&check; Full Support except download attribute in IE and IOS Safari
+
+--&gt;
+
+&lt;<span class="tag">a</span> <span class="attribute">href</span>=<span class="attribute-value">"https://www.google.com"</span> <span class="attribute">target</span>=<span class="attribute-value">"_blank"</span>&gt;click here&lt;/<span class="tag">a</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End Anchor tag -->
+
+        <!-- Start img tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                    <label class="title-2">img tag</label>
+                <img src="https://via.placeholder.com/900" alt="background">
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; embeds an image into the document
+
+Attributes:
+===========
+&diams; alt &rarr; displays if the image didn't load
+&diams; src &rarr; src locates an image by ex: img/cat.png | if i want to get back to folder use this ../ for one back and this ../../ for two back and so on
+&diams; height, width &rarr; don't need px just the number
+&diams; async &rarr; Decode the image asynchronously to reduce delay in presenting other content.
+
+Best Practice:
+===========
+&diams; a
+&diams; a &gt; img
+&diams; ul &gt; li &gt; a
+
+Other:
+===========
+&diams; inline tag
+&diams; self-closing
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">img</span> <span class="attribute">src</span>=<span class="attribute-value">"https://via.placeholder.com/900"</span> <span class="attribute">height</span>=<span class="attribute-value">"auto"</span> <span class="attribute">width</span>=<span class="attribute-value">"500"</span> <span class="attribute">alt</span>=<span class="attribute-value">"background"</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End img tag -->
+
+        <!-- Start hr tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">hr tag</label>
+                <hr>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents a thematic break between paragraph-level elements
+
+Attributes:
+===========
+&diams; global attributes
+
+Best Practice:
+===========
+&diams; body &gt; hr
+
+Other:
+===========
+&diams; block tag
+&diams; self-closing
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">hr</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End hr tag -->
+
+        <!-- Start iframe tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                    <label class="title-2">iframe tag</label>
+                <iframe src="https://www.youtube.com/embed/7d16CpWp-ok"></iframe>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents a nested browsing context, embedding another HTML page into the current one.
+
+Attributes:
+===========
+&diams; src &rarr; The URL of the page to embed. Use a value of about:blank to embed an empty page
+&diams; width &rarr; The width of the frame in CSS pixels. Default is 300.
+&diams; height &rarr; The height of the frame in CSS pixels. Default is 150.
+
+Best Practice:
+===========
+&diams; div &gt; iframe
+
+Other:
+===========
+&diams; block tag
+
+--&gt;
+
+&lt;<span class="tag">iframe</span> <span class="attribute">src</span>=<span class="attribute-value">"https://www.w3schools.com"</span>&gt;&lt;/<span class="tag">iframe</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End iframe tag -->
+
+        <!-- Start entities -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface" style="font-size: 50px;">
+                    <label class="title-2">entities</label>
+                &nbsp;
+                <!-- non breaking space -->
+                &lt;
+                <!-- less than < -->
+                &gt;
+                <!-- greater than > -->
+                &amp;
+                <!-- and & -->
+                &cent;
+                <!-- cent ¢ -->
+                &pound;
+                <!-- pound £ -->
+                &yen;
+                <!-- yen ¥ -->
+                &euro;
+                <!-- euro € -->
+                &copy;
+                <!-- copywrite © -->
+                &reg;
+                <!-- trademark ® -->
+                &#x2764;
+                <!-- heart -->
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; you can't write a div tag as a text because the browser read it as a tag not as a text in this case you gotta use entities
+
+Attributes:
+===========
+&diams; not a tag
+
+Best Practice:
+===========
+&diams; use it with any context
+
+Other:
+===========
+&check; Full Support
+
+--&gt;
+
+<span class="tag">&amp;nbsp; &amp;lt; &amp;gt; &amp;amp; &amp;cent; &amp;pound; &amp;yen; &amp;euro; &amp;copy; &amp;reg; &amp;#x2764;</span></code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End entities -->
+
+        <!-- Start main tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">main tag</label>
+                <main>this is a main tag</main>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents the dominant content of the &lt;body&gt; of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.
+&diams; it's better to use it main tag is used once
+
+Attributes:
+===========
+&diams; global attributes
+
+Best Practice:
+===========
+&diams; body &gt; main
+
+Other:
+===========
+&diams; block tag
+&check; Full Support except IE
+
+--&gt;
+
+&lt;<span class="tag">main</span>&gt;this is a main tag&lt;/<span class="tag">main</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End main tag -->
+
+        <!-- Start figure tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                    <label class="title-2">figure tag</label>
+                <figure style="background: none;">
+                    <figcaption style="background:none; text-transform: lowercase;">figure caption</figcaption>
+                    <pre><code>&lt;&excl;-- code goes here --&gt;</code></pre>
+                </figure>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents self-contained content, potentially with an optional caption, which is specified using the &lt;figcaption&gt;
+
+Attributes:
+===========
+&diams; global attributes
+
+Best Practice:
+===========
+&diams; [Images] figure &gt; img , figcaption
+&diams; [Code snippets] figure &gt; figcaption , pre
+&diams; [Code snippets] figure &gt; figcaption , pre > code
+&diams; [Quotations] figure &gt; figcaption > cite , blockquote
+&diams; [Poems] figure &gt; p , figcaption > cite
+
+Other:
+===========
+&diams; block tag
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">figure</span>&gt;
+&lt;<span class="tag">figcaption</span>&gt;this is a caption&lt;/<span class="tag">figcaption</span>&gt;
+&lt;<span class="tag">pre</span>&gt;&lt;<span class="tag">code</span>&gt;code goes here&lt;/<span class="tag">code</span>&gt;&lt;/<span class="tag">pre</span>&gt;
+&lt;/<span class="tag">figure</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End figure tag -->
+
+        <!-- Start details tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                    <label class="title-2">details tag</label>
+                <details open>
+                    <summary>System Requiremnts</summary>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, perferendis saepe unde fugiat
+                    nesciunt
+                    corrupti deleniti voluptate libero facere ducimus dolorum aspernatur, obcaecati molestiae eveniet
+                    ipsam quae
+                    cumque reprehenderit. Necessitatibus.
+                </details>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; creates a disclosure widget in which information is visible only when the widget is toggled into an "open" state. A summary or label can be provided using the &lt;summary&gt; element.
+&diams; details tag seems like [FAQs]
+&diams; to remove traingle button by css summary::-webkit-details-marker {display: none;}
+
+Attributes:
+===========
+&diams; open &rarr; contents of the details  element  are visible
+
+Best Practice:
+===========
+&diams; details &gt; summary, p
+&diams; details &gt; summary
+&diams; details &gt; p
+
+Other:
+===========
+&diams; block tag
+
+--&gt;
+
+&lt;<span class="tag">details</span> <span class="attribute">open</span>&gt;
+&lt;<span class="tag">summary</span>&gt;System Requiremnts&lt;/<span class="tag">summary</span>&gt;
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, perferendis saepe unde fugiat nesciunt
+corrupti deleniti voluptate libero facere ducimus dolorum aspernatur, obcaecati molestiae eveniet ipsam quae
+cumque reprehenderit. Necessitatibus.
+&lt;/<span class="tag">details</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End details tag -->
+
+        <!-- Start audio tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                    <label class="title-2">audio tag</label>
+                <audio controls autoplay loop muted preload="metadata">
+                    <source src="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3" type="audio/mp3">
+                    <source src="" type="audio/oog">
+                    your browser doen't support audio technology
+                </audio>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams;  is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the &lt;source&gt; element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.
+&diams; Browsers don't all support the same video formats; you can provide multiple sources inside nested &lt;source&gt; elements, and the browser will then use the first one it understands:
+&diams; it's better to put many extensions of the audio
+&diams; you gotta add the <a style="color: #a96cd7;" href="https://www.sitepoint.com/mime-types-complete-list/" target="_blank">mime type</a> for each extension
+&diams; you gotta  differentiate between the video extensions based on the user device
+&diams; if the video didn't work the alt text will be displayed
+
+Attributes:
+===========
+&diams; autoplay &rarr; overrides preload attribute
+&diams; preload &rarr; has 3 values [none, metadata and auto]
+&diams; none Indicates that the audio should not be preloaded.
+&diams; metadata Indicates that only audio metadata (e.g. length) is fetched.
+&diams; auto Indicates that the whole audio file can be downloaded, even if the user is not expected to use it.
+&diams; controls &rarr; allow the user to control video playback, including volume, seeking, and pause/resume playback.
+&diams; muted &rarr; If set, the audio will be initially silenced.
+&diams; loop &rarr; browser will automatically seek back to the start upon reaching the end of the video.
+
+Best Practice:
+===========
+&diams; div &gt; audio
+
+Other:
+===========
+&diams; block tag
+&check; Full Support for audio tag but some attributes not
+
+--&gt;
+
+&lt;<span class="tag">audio</span> <span class="attribute">controls</span> <span class="attribute">autoplay</span> <span class="attribute">loop</span> <span class="attribute">muted</span> <span class="attribute">preload</span>=<span class="attribute-value">"metadata"</span>&gt;
+&lt;<span class="tag">source</span> <span class="attribute">src</span>=<span class="attribute-value">"media/audio.mp3"</span> <span class="attribute">type</span>=<span class="attribute-value">"audio/mp3"</span>&gt;
+&lt;<span class="tag">source</span> <span class="attribute">src</span>=<span class="attribute-value">"media/audio.oog"</span> <span class="attribute">type</span>=<span class="attribute-value">"audio/oog"</span>&gt;
+your browser doen't support audio technology
+&lt;/<span class="tag">audio</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End audio tag -->
+
+        <!-- Start video tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                    <label class="title-2">video tag</label>
+                <video controls poster="https://via.placeholder.com/900" loop muted preload="none">
+                    <source src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4" type="video/mp4">
+                    <source src="" type="video/webm">
+                    <track src="" kind="metadata" srclang="en" label="English">
+                    <!-- this tag for the subtitle of the video -->
+                    your browser doesn't support video technology
+                    <!-- this is the alternative text if the video didn't work -->
+                </video>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.
+&diams; it's better to put many extensions of the video
+&diams; you gotta add the <a style="color: #a96cd7;" href="https://www.sitepoint.com/mime-types-complete-list/" target="_blank">mime type</a> for each extension
+&diams; you gotta  differentiate between the video extensions based on the user device
+&diams; Browsers don't all support the same video formats; you can provide multiple sources inside nested &lt;source&gt; elements, and the browser will then use the first one it understands:
+&diams; track tag is for the subtitle
+&diams; if the video didn't work the alt text will be displayed
+
+Attributes:
+===========
+&diams; autoplay &rarr; overrides preload attribute
+&diams; preload &rarr; has 3 values [none, metadata and auto]
+&diams; none Indicates that the video should not be preloaded
+&diams; metadata Indicates that only video metadata (e.g. length) is fetched
+&diams; auto Indicates that the whole video file can be downloaded, even if the user is not expected to use it.
+&diams; poster &rarr; it is the thumbsnail of the video
+&diams; controls &rarr; allow the user to control video playback, including volume, seeking, and pause/resume playback.
+&diams; muted &rarr; If set, the audio will be initially silenced.
+&diams; loop &rarr; browser will automatically seek back to the start upon reaching the end of the video.
+
+Best Practice:
+===========
+&diams; div &gt; video
+
+Other:
+===========
+&diams; block tag
+&check; Full Support for video tag but some attributes not
+
+--&gt;
+
+&lt;<span class="tag">video</span> <span class="attribute">controls</span> <span class="attribute">poster</span>=<span class="attribute-value">"img/ball.jpg"</span> <span class="attribute">width</span>=<span class="attribute-value">"500"</span> <span class="attribute">height</span>=<span class="attribute-value">"auto"</span> <span class="attribute">autoplay</span> <span class="attribute">loop</span> <span class="attribute">muted</span> <span class="attribute">preload</span>=<span class="attribute-value">"auto"</span><span class="tag"></span>&gt;
+&lt;<span class="tag">source</span> <span class="attribute">src</span>=<span class="attribute-value">"media/video.mp4"</span> <span class="attribute">type</span>=<span class="attribute-value">"video/mp4"</span>&gt;
+&lt;<span class="tag">source</span> <span class="attribute">src</span>=<span class="attribute-value">"media/video.webm"</span> <span class="attribute">type</span>=<span class="attribute-value">"video/webm"</span>&gt;
+&lt;<span class="tag">track</span> <span class="attribute">src</span>=<span class="attribute-value">"media/subtitle.vtt"</span> <span class="attribute">kind</span>=<span class="attribute-value">"metadata"</span> <span class="attribute">srclang</span>=<span class="attribute-value">"en"</span> <span class="attribute">label</span>=<span class="attribute-value">"English"</span>&gt;
+your browser doen't support video technology
+&lt;/<span class="tag">video</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End video tag -->
+
+        <!-- Start ul tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                    <label class="title-2">ul tag</label>
+                <ul>
+                    <li>text</li>
+                    <li>text</li>
+                </ul>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents an unordered list of items, typically rendered as a bulleted list.
+
+Attributes:
+===========
+&diams; global attributes
+
+Best Practice:
+===========
+&diams; ul &gt; li
+&diams; ul &gt; li &gt; a
+
+Other:
+===========
+&diams; block tag
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">ul</span><span class="tag"></span>&gt;
+&lt;<span class="tag">li</span>&gt;text&lt;/<span class="tag">li</span>&gt;
+&lt;<span class="tag">li</span>&gt;text&lt;/<span class="tag">li</span>&gt;
+&lt;/<span class="tag">ul</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End ul tag -->
+
+        <!-- Start ol tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                    <label class="title-2">ol tag</label>
+                <ol type="a" start="3" reversed>
+                    <li>text</li>
+                    <li>text</li>
+                </ol>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents an ordered list of items, typically rendered as a numbered list.
+
+Attributes:
+===========
+&diams; type &rarr; 
+&diams; 'a' indicates lowercase letters,
+&diams; 'A' indicates uppercase letters,
+&diams; 'i' indicates lowercase Roman numerals,
+&diams; 'I' indicates uppercase Roman numerals,
+&diams; and '1' indicates numbers (default).
+&diams; start &rarr; means it starts from what you want | accepts digits only based on type attribute
+&diams; reversed &rarr; it reverse the items from bottom to top
+
+Best Practice:
+===========
+&diams; ol &gt; li
+&diams; ol &gt; li &gt; a
+
+Other:
+===========
+&diams; block tag
+&check; Full Support except reversed attribute in IE
+
+--&gt;
+
+&lt;<span class="tag">ol</span> <span class="attribute">type</span>=<span class="attribute-value">"a"</span> <span class="attribute">start</span>=<span class="attribute-value">"3"</span> <span class="attribute">reversed</span><span class="tag"></span>&gt;
+&lt;<span class="tag">li</span>&gt;text&lt;/<span class="tag">li</span>&gt;
+&lt;<span class="tag">li</span>&gt;text&lt;/<span class="tag">li</span>&gt;
+&lt;/<span class="tag">ol</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End ol tag -->
+
+        <!-- Start span tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">span tag</label>
+                <span>this is a span tag</span>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; a generic inline container for phrasing content, which does not inherently represent anything. It can be used to group elements for styling purposes
+&diams; span tag for customizing some text in &lt;p&gt; tag or something
+
+Attributes:
+===========
+&diams; global attributes
+
+Best Practice:
+===========
+&diams; p &gt; span
+&diams; li &gt; span &gt; a
+
+Other:
+===========
+&diams; inline tag
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">span</span>&gt;this is a span tag&lt;/<span class="tag">span</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End span tag -->
+
+        <!-- Start dl tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                    <label class="title-2">dl tag</label>
+                <dl>
+                    <dt>description title</dt>
+                    <dd>description definition, Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Incidunt laborum</dd>
+                </dl>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; element represents a description list. The element encloses a list of groups of terms (specified using the &lt;dt&gt; element) and descriptions (provided by &lt;dd&gt; elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs).
+
+Attributes:
+===========
+&diams; global attributes
+
+Best Practice:
+===========
+&diams; dl &gt; dt , dd
+&diams; dl &gt; dt , dt , dt , dd
+&diams; dl &gt; dt , dd , dd
+&diams; dl &gt; dt , dd , dt , dd
+&diams; dl &gt; div &gt; dt , dd
+
+Other:
+===========
+&diams; block tag
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">dl</span>&gt;
+&lt;<span class="tag">dt</span>&gt;this is a description title&lt;/<span class="tag">dt</span>&gt;
+&lt;<span class="tag">dd</span>&gt;this is description definition, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt laborum&lt;/<span class="tag">dd</span>&gt;
+&lt;/<span class="tag">dl</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End dl tag -->
+
+        <!-- Start b tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">bold tag</label>
+                <b>this is a bold text</b>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; is used to draw the reader's attention to the element's contents, which are not otherwise granted special importance.
+&diams; bold tag can be replace by css font-weight
+&diams; used to get attention only
+&diams; a good practice it to use class inside bold tag
+
+Attributes:
+===========
+&diams; global attributes
+
+Best Practice:
+===========
+&diams; p &gt; b
+
+Other:
+===========
+&diams; inline tag
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">b</span>&gt;this is a bold tag&lt;/<span class="tag">b</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End b tag -->
+
+        <!-- Start i tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">italic tag</label>
+                <i>this is an italic text</i>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents a range of text that is set off from the normal text for some reason.
+&diams; italic tag can be replaced by css font-style
+&diams; it's a good idea to use class with this tag
+
+Attributes:
+===========
+&diams; global attributes
+
+Best Practice:
+===========
+&diams; p &gt; i
+
+Other:
+===========
+&diams; inline tag
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">i</span>&gt;this is an italic text&lt;/<span class="tag">i</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End i tag -->
+
+        <!-- Start strong tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">strong tag</label>
+                <strong>this is a strong text</strong>
+
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; indicates that its contents have strong importance, seriousness, or urgency. Browsers typically render the contents in bold type.
+&diams; bold and can be replaced with css font-weight
+&diams; used for text-to-speach programs
+&diams; used for the important texts only
+&diams; a person or software would pronounce it using verbal stress
+
+Attributes:
+===========
+&diams; global attributes
+
+Best Practice:
+===========
+&diams; p &gt; strong
+
+Other:
+===========
+&diams; inline tag
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">strong</span>&gt;this is a strong text&lt;/<span class="tag">strong</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End strong tag -->
+
+        <!-- Start em tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">em tag</label>
+                <em>this is an italic text</em>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; marks text that has stress emphasis
+&diams; italic font can be replaced by css font-style
+&diams; used for text-to-speach programs
+&diams; used for the important texts only
+&diams; a person or software would pronounce it using verbal stress
+
+Attributes:
+===========
+&diams; global attributes
+
+Best Practice:
+===========
+&diams; p &gt; em
+
+Other:
+===========
+&diams; inline tag
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">em</span>&gt;this is an italic text&lt;/<span class="tag">em</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End em tag -->
+
+        <!-- Start small tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">small tag</label>
+                <small>this is a small text</small>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; makes the text font size one size smaller (for example, from large to medium, or from small to x-small) down to the browser's minimum font size.  In HTML5, this element is repurposed to represent side-comments and small print, including copyright and legal text, independent of its styled presentation.
+&diams; small font and can be replaced by css font-size
+
+Attributes:
+===========
+&diams; global attributes
+
+Best Practice:
+===========
+&diams; p &gt; small
+
+Other:
+===========
+&diams; inline tag
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">small</span>&gt;this is a small text&lt;/<span class="tag">small</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End small tag -->
+
+        <!-- Start blockquote tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">blockquote tag</label>
+                <blockquote>this is a blockquote tag</blockquote>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; indicates that the enclosed text is an extended quotation
+
+Attributes:
+===========
+&diams; cite &rarr; A URL that designates a source document or message for the information quoted
+
+Best Practice:
+===========
+&diams; blockquote &gt; p
+
+Other:
+===========
+&diams; block tag
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">blockquote</span>&gt;this is a blockquote tag&lt;/<span class="tag">blockquote</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End blockquote tag -->
+
+        <!-- Start q tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">q tag</label>
+                <q>this is a q tag</q>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; indicates that the enclosed text is a short inline quotation
+
+Attributes:
+===========
+&diams; global attributes
+
+Best Practice:
+===========
+&diams; p &gt; q
+
+Other:
+===========
+&diams; inline tag
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">q</span>&gt;this is a q tag&lt;/<span class="tag">q</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End q tag -->
+
+        <!-- Start mark tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">mark tag</label>
+                <mark>this is a mark tag</mark>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents text which is marked or highlighted for reference or notation purposes.
+&diams; use mark tag to indicate the words that matched a search operation
+&diams; Don't use it for syntax highlighting purposes instead, use the span with CSS
+
+Attributes:
+===========
+&diams; global attributes
+
+Best Practice:
+===========
+&diams; p &gt; mark
+
+Other:
+===========
+&diams; inline tag
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">mark</span>&gt;this is a mark tag&lt;/<span class="tag">mark</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End mark tag -->
+
+        <!-- Start del tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">del tag</label>
+                <del>this is a del tag</del>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents a range of text that has been deleted from a document.
+
+Attributes:
+===========
+&diams; cite &rarr; A URI for a resource that explains the change
+&diams; datetime &rarr; indicates the time and date of the change and must be a valid date string with an optional time.
+
+Best Practice:
+===========
+&diams; p &gt; del
+
+Other:
+===========
+&diams; inline tag
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">del</span>&gt;this is a del tag&lt;/<span class="tag">del</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End del tag -->
+
+        <!-- Start ins tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">ins tag</label>
+                <ins>this is an ins tag</ins>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents a range of text that has been added to a document.
+
+Attributes:
+===========
+&diams; cite &rarr; A URI for a resource that explains the change
+&diams; datetime &rarr; indicates the time and date of the change and must be a valid date string with an optional time.
+
+Best Practice:
+===========
+&diams; p &gt; ins
+&diams; ins &gt; p
+
+Other:
+===========
+&diams; inline tag
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">ins</span>&gt;this is an ins tag&lt;/<span class="tag">ins</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End ins tag -->
+
+        <!-- Start sup tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">sup tag</label>
+                5<sup>2</sup>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; specifies inline text which is to be displayed as superscript for solely typographical reasons
+
+Attributes:
+===========
+&diams; global arreibutes
+
+Best Practice:
+===========
+&diams; p &gt; sup
+&diams; ul &gt; li &gt; sup
+
+Other:
+===========
+&diams; inline tag
+&check; Full Support
+
+--&gt;
+
+5&lt;<span class="tag">sup</span>&gt;2&lt;/<span class="tag">sup</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End sup tag -->
+
+        <!-- Start sub tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">sub tag</label>
+                h<sub>2</sub>o
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; specifies inline text which should be displayed as subscript for solely typographical reasons
+
+Attributes:
+===========
+&diams; global arreibutes
+
+Best Practice:
+===========
+&diams; p &gt; sup
+&diams; ul &gt; li &gt; sup
+
+Other:
+===========
+&diams; inline tag
+&check; Full Support
+
+--&gt;
+
+h&lt;<span class="tag">sub</span>&gt;2&lt;/<span class="tag">sub</span>&gt;o</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End sub tag -->
+
+        <!-- Start var tag -->
+        <section class="section">
+
+                <!-- START INTERFACE -->
+                <div class="user-interface">
+                    <label class="title-2">var tag</label>
+                    <var>y</var> = <var>x</var> + 2
+                </div>
+                <!-- END INTERFACE -->
+
+                <!-- START CODE -->
+                <figure>
+                        <figcaption>
+                                <div class="lan">html</div>
+                                <div class="win-btns"><span></span><span></span><span></span></div>
+                            </figcaption>
+    <pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents the name of a variable in a mathematical expression or a programming context. It's typically presented using an italicized version of the current typeface
+
+Attributes:
+===========
+&diams; global arreibutes
+
+Best Practice:
+===========
+&diams; p &gt; var
+
+Other:
+===========
+&diams; inline tag
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">var</span>&gt;y&lt;/<span class="tag">var</span>&gt;=&lt;<span class="tag">var</span>&gt;x&lt;/<span class="tag">var</span>&gt;+2</code></pre>
+
+                </figure>
+                <!-- END CODE -->
+
+            </section>
+            <!-- End var tag -->
+
+        <!-- Start wbr tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">wbr tag</label>
+                <wbr>unbreakinglongword<wbr>
+            </div>
+                <!-- END INTERFACE -->
+
+                <!-- START CODE -->
+                <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents a word break opportunity—a position within text where the browser may optionally break a line, though its line-breaking rules would not otherwise create a break at that location.
+&diams; wbr tag is for unbreaking a selected word
+
+Attributes:
+===========
+&diams; global attributes
+
+Best Practice:
+===========
+&diams; p &gt; wbr
+
+Other:
+===========
+&diams; inline tag
+&diams; doesn't have a closing tag just two opening tags
+
+--&gt;
+
+&lt;<span class="tag">wbr</span>&gt;unbreakinglongword&lt;<span class="tag">wbr</span>&gt;</code></pre>
+
+                </figure>
+                <!-- END CODE -->
+
+        </section>
+        <!-- End wbr tag -->
+
+        <!-- Start time tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">time tag</label>
+                <time datetime="2014-10-25 15:49:33">
+                    oct, 25th, 2014
+                </time>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents a specific period in time. It may include the datetime attribute to translate dates into machine-readable format, allowing for better search engine results or custom features such as reminders.
+&diams; used for SEO & Calender Events
+
+Attributes:
+===========
+&diams; datetime &rarr; 2014-10-25 15:49:33
+
+Best Practice:
+===========
+&diams; p &gt; time
+
+Other:
+===========
+&diams; inline tag
+
+--&gt;
+
+&lt;<span class="tag">time</span> <span class="attribute">time</span>=<span class="attribute-value">"2014-10-25 15:49:33"</span>&gt;
+oct, 25th, 2014
+&lt;/<span class="tag">time</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End time tag -->
+
+        <!-- Start dialog tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">dialog tag</label>
+                <dialog open style="z-index: 1; margin: 0; position: relative;">
+                    this is a dialog tag
+                </dialog>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents a dialog box or other interactive component, such as an inspector or window.
+&diams; used instead of [POPUP] with some javascript
+&diams; &lt;form&gt; elements can be integrated within a dialog by specifying them with the attribute method="dialog". When such a form is submitted, the dialog is closed with its returnValue attribute set to the value of the form's submit button that was used.
+
+Attributes:
+===========
+&diams; open &rarr; Indicates that the dialog is active and available for interaction. When the open attribute is not set, the dialog shouldn't be shown to the user.
+
+Best Practice:
+===========
+&diams; dialog &gt; p
+&diams; dialog &gt; form
+
+Other:
+===========
+&diams; block tag | Expermental Tag
+
+--&gt;
+
+&lt;<span class="tag">dialog</span> <span class="attribute">open</span>&gt;
+this is a dialog tag
+&lt;/<span class="tag">dialog</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End dialog tag -->
+
+        <!-- Start bdi tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">bdi tag</label>
+                <bdi>نقطة</bdi> 100 <bdi>محمد لديه</bdi>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; tells the browser's bidirectional algorithm to treat the text it contains in isolation from its surrounding text. It's particularly useful when a website dynamically inserts some text and doesn't know the directionality of the text being inserted.
+&diams; bdi tag for isolating Arabic words from english ones
+&diams; better to isolate the arabic words only
+
+Attributes:
+===========
+&diams; global attributes
+
+Best Practice:
+===========
+&diams; ul &gt; li &gt; bdi
+
+Other:
+===========
+&diams; inline tag
+
+--&gt;
+
+&lt;<span class="tag">bdi</span>&gt;نقطة&lt;/<span class="tag">bdi</span>&gt; 100 &lt;<span class="tag">bdi</span>&gt;محمد لديه&lt;/<span class="tag">bdi</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End bdi tag -->
+
+        <!-- Start table tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">table tag</label>
+                <table>
+                    <caption>this is a caption</caption>
+                    <tr>
+                        <th>head1</th>
+                        <th>head2</th>
+                        <th>head3</th>
+                    </tr>
+                    <tr>
+                        <td colspan="2">one</td>
+                        <td>one</td>
+                    </tr>
+                    <tr>
+                        <td>one</td>
+                        <td>one</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">one</td>
+                        <td>one</td>
+                    </tr>
+                    <tr>
+                        <td>one</td>
+                        <td>one</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.
+&diams; table tags shouldn't be used as they reduce the page speed
+&diams; table tag can be styled by [border-collapse: collapse;]
+&diams; &lt;td&gt; & &lt;th&gt; can be styled by border:1px solid red;
+
+Attributes:
+===========
+&diams; rowspan="3" &rarr; for merging 3 rows & must be at least 3 rows [vertical] (used in &lt;td&gt; and &lt;th&gt;)
+&diams; colspan="4" &rarr; for merging 4 columns & must be at least 4 columns [horizontal] (used in &lt;td&gt; and &lt;th&gt;)
+
+Best Practice:
+===========
+&diams; table &gt; caption , tr &gt; th , tr &gt; td
+
+Other:
+===========
+&diams; block tag
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">table</span>&gt;
+&lt;<span class="tag">caption</span>&gt;this is a caption&lt;/<span class="tag">caption</span>&gt;
+&lt;<span class="tag">tr</span>&gt;&lt;<span class="tag">th</span>&gt;head1&lt;/<span class="tag">th</span>&gt;&lt;<span class="tag">th</span>&gt;head2&lt;/<span class="tag">th</span>&gt;&lt;<span class="tag">th</span>&gt;head3&lt;/<span class="tag">th</span>&gt;&lt;/<span class="tag">tr</span>&gt;
+&lt;<span class="tag">tr</span>&gt;&lt;<span class="tag">td</span> <span class="attribute">colspan</span>=<span class="attribute-value">"2"</span>&gt;one&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;one&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;one&lt;/<span class="tag">td</span>&gt;&lt;/<span class="tag">tr</span>&gt;
+&lt;<span class="tag">tr</span>&gt;&lt;<span class="tag">td</span>&gt;one&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;one&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;one&lt;/<span class="tag">td</span>&gt;&lt;/<span class="tag">tr</span>&gt;
+&lt;<span class="tag">tr</span>&gt;&lt;<span class="tag">td</span> <span class="attribute">rowspan</span>=<span class="attribute-value">"2"</span>&gt;one&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;one&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;one&lt;/<span class="tag">td</span>&gt;&lt;/<span class="tag">tr</span>&gt;
+&lt;<span class="tag">tr</span>&gt;&lt;<span class="tag">td</span>&gt;one&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;one&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;one&lt;/<span class="tag">td</span>&gt;&lt;/<span class="tag">tr</span>&gt;
+&lt;/<span class="tag">table</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End table tag -->
+
+        <!-- Start table tag 2 -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">table tag</label>
+                <table>
+                    <caption>this is a caption</caption>
+
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Instrument</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>John Lennon</td>
+                            <td>Rhythm Guitar</td>
+                        </tr>
+                        <tr>
+                            <td>John Lennon</td>
+                            <td>Rhythm Guitar</td>
+                        </tr>
+                        <tr>
+                            <td>John Lennon</td>
+                            <td>Rhythm Guitar</td>
+                        </tr>
+                        <tr>
+                            <td>John Lennon</td>
+                            <td>Rhythm Guitar</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <th>Name</th>
+                            <th>Instrument</th>
+                        </tr>
+                    </tfoot>
+
+                </table>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.
+&diams; table tags shouldn't be used as they reduce the page speed
+&diams; table tag can be styled by [border-collapse: collapse;]
+&diams; &lt;td&gt; & &lt;th&gt; can be styled by border:1px solid red;
+&diams; table tag has another elements [thead, tbody & tfoot]
+&diams; these elements are arranged by default [1st thead] [2nd tbody] [3rd tfoot]
+
+Attributes:
+===========
+&diams; rowspan="3" &rarr; for merging 3 rows & must be at least 3 rows [vertical] (used in &lt;td&gt; and &lt;th&gt;)
+&diams; colspan="4" &rarr; for merging 4 columns & must be at least 4 columns [horizontal] (used in &lt;td&gt; and &lt;th&gt;)
+
+Best Practice:
+===========
+&diams; table &gt; caption , thead &gt; tr &gt; th , tbody &gt; tr &gt; td , tfoot &gt; tr &gt; td
+
+Other:
+===========
+&diams; block tag
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">table</span>&gt;
+&lt;<span class="tag">caption</span>&gt;this is a caption&lt;/<span class="tag">caption</span>&gt;
+&lt;<span class="tag">thead</span>&gt;
+&lt;<span class="tag">tr</span>&gt;&lt;<span class="tag">th</span>&gt;Name&lt;/<span class="tag">th</span>&gt;&lt;<span class="tag">th</span>&gt;Instrument&lt;/<span class="tag">th</span>&gt;&lt;/<span class="tag">tr</span>&gt;
+&lt;/<span class="tag">thead</span>&gt;
+&lt;<span class="tag">tbody</span>&gt;
+&lt;<span class="tag">tr</span>&gt;&lt;<span class="tag">td</span>&gt;John Lennon&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;Rhythm Guitar&lt;/<span class="tag">td</span>&gt;&lt;/<span class="tag">tr</span>&gt;
+&lt;<span class="tag">tr</span>&gt;&lt;<span class="tag">td</span>&gt;John Lennon&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;Rhythm Guitar&lt;/<span class="tag">td</span>&gt;&lt;/<span class="tag">tr</span>&gt;
+&lt;<span class="tag">tr</span>&gt;&lt;<span class="tag">td</span>&gt;John Lennon&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;Rhythm Guitar&lt;/<span class="tag">td</span>&gt;&lt;/<span class="tag">tr</span>&gt;
+&lt;<span class="tag">tr</span>&gt;&lt;<span class="tag">td</span>&gt;John Lennon&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;Rhythm Guitar&lt;/<span class="tag">td</span>&gt;&lt;/<span class="tag">tr</span>&gt;
+&lt;/<span class="tag">tbody</span>&gt;
+&lt;<span class="tag">tfoot</span>&gt;
+&lt;<span class="tag">tr</span>&gt;&lt;<span class="tag">th</span>&gt;Name&lt;/<span class="tag">th</span>&gt;&lt;<span class="tag">th</span>&gt;Instrument&lt;/<span class="tag">th</span>&gt;&lt;/<span class="tag">tr</span>&gt;
+&lt;/<span class="tag">tfoot</span>&gt;
+&lt;/<span class="tag">table</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End table tag 2 -->
+
+        <!-- Start table tag 3 -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">colgroup tag</label>
+                <table>
+                    <colgroup>
+                        <col span="1" style="background: #fb625d;">
+                        <col span="1" style="background: #fcbf40;">
+                        <col span="3" style="background: #34c949;">
+                    </colgroup>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; colgroup tag allows you to select columns by groups
+
+Attributes:
+===========
+&diams; span 1 &rarr; first column to be styled in css | red
+&diams; span 1 &rarr; one column after the previous column | yellow
+&diams; span 3 &rarr; three columns after the previous column | green
+
+Best Practice:
+===========
+&diams; colgroup &gt; col
+
+Other:
+===========
+&diams; block tag
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">table</span>&gt;
+&lt;<span class="tag">colgroup</span>&gt;
+&lt;<span class="tag">col</span> <span class="attribute">span</span>=<span class="attribute-value">"1"</span> <span class="attribute">style</span>=<span class="attribute-value">"background: red;"</span>&gt;
+&lt;<span class="tag">col</span> <span class="attribute">span</span>=<span class="attribute-value">"1"</span> <span class="attribute">style</span>=<span class="attribute-value">"background: yellow;"</span>&gt;
+&lt;<span class="tag">col</span> <span class="attribute">span</span>=<span class="attribute-value">"3"</span> <span class="attribute">style</span>=<span class="attribute-value">"background: green;"</span>&gt;
+&lt;/<span class="tag">colgroup</span>&gt;
+&lt;<span class="tag">tr</span>&gt;&lt;<span class="tag">td</span>&gt;1&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;2&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;3&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;4&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;5&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;6&lt;/<span class="tag">td</span>&gt;&lt;/<span class="tag">tr</span>&gt;
+&lt;<span class="tag">tr</span>&gt;&lt;<span class="tag">td</span>&gt;7&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;8&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;9&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;10&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;11&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;12&lt;/<span class="tag">td</span>&gt;&lt;/<span class="tag">tr</span>&gt;
+&lt;<span class="tag">tr</span>&gt;&lt;<span class="tag">td</span>&gt;13&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;14&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;15&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;16&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;17&lt;/<span class="tag">td</span>&gt;&lt;<span class="tag">td</span>&gt;18&lt;/<span class="tag">td</span>&gt;&lt;/<span class="tag">tr</span>&gt;
+&lt;/<span class="tag">table</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End table tag 3 -->
+
+        <!-- Start label tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">label tag</label>
+                <label>click to check
+                    <input style = "width:50px;" type="checkbox">
+                </label>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents a caption for an item in a user interface.
+&diams; it's better to use it for naming the inputs tags
+&diams; Don't place interactive elements such as anchors or buttons or heading elements (h4 , p , i & etc) inside a label.
+&diams;To associate the &lt;label&gt; with an &lt;input&gt; element, you need to give the &lt;input&gt; an id attribute. The &lt;label&gt; then needs a for attribute whose value is the same as the input's id.
+&diams; Alternatively, you can nest the &lt;input&gt; directly inside the &lt;label&gt;, in which case the for and id attributes are not needed because the association is implicit.
+
+Attributes:
+===========
+&diams; for &rarr; use it to link label tag with an input by id with the same value of for attribute
+&diams; form  &rarr; The &lt;form&gt; element with which the label is associated (its form owner). If specified, the value of the attribute is the id of a &lt;form&gt; element in the same document. This lets you place label elements anywhere within a document, not just as descendants of their form elements.
+
+Best Practice:
+===========
+&diams; form &gt; label &gt; input
+&diams; form &gt; label , input
+
+Other:
+===========
+&diams; inline tag
+&check; Full Support except form attribute
+
+--&gt;
+
+&lt;<span class="tag">label</span>&gt;click to check
+<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"checkbox"</span>&gt;
+&lt;/<span class="tag">label</span>&gt;
+or
+&lt;<span class="tag">label</span> <span class="attribute">for</span>=<span class="attribute-value">"check"</span>&gt;click to check&lt;/<span class="tag">label</span>&gt;
+<span class="tag">input</span> <span class="attribute">id</span>=<span class="attribute-value">"check"</span> <span class="attribute">type</span>=<span class="attribute-value">"checkbox"</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End label tag -->
+
+        <!-- Start form tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">form tag</label>
+                <form action="file.php" method="GET" enctype="multipart/form-data" target="_blank"  novalidate>
+                    this is a form tag
+                </form>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents a document section that contains interactive controls for submitting information to a web server.
+&diams; you gotta put your input tags inside the &lt;form&gt; tag to work
+
+Attributes:
+===========
+&diams; action &rarr; locates the php file
+&diams; method &rarr; get , post and dialog [get shows url and file] [post shows file only] [dialog  when the form is inside a &lt;dialog&gt; element to close the dialog when submitted.]
+&diams; target &rarr; _blank, _self | [blank opens a new tab window] [self is the default]
+&diams; enctype &rarr; "multipart/form-data" for decrypting the uploaded file
+&diams; novalidate &rarr; ignores validation like @ for input type email
+
+Best Practice:
+===========
+&diams; body &gt; form
+
+Other:
+===========
+&diams; block tag
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">form</span> <span class="attribute">action</span>=<span class="attribute-value">"file.php"</span> <span class="attribute">method</span>=<span class="attribute-value">"GET"</span> <span class="attribute">enctype</span>=<span class="attribute-value">"multipart/form-data"</span> <span class="attribute">target</span>=<span class="attribute-value">"_blank"</span> <span class="attribute">novalidate</span>&gt;
+this is a form tag
+&lt;/<span class="tag">form</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End form tag -->
+
+        <!-- Start input tag 1 -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">override attributes | input tag | type submit</label>
+                <input class="btns" type="submit" formaction="file2.php" formmethod="POST" formenctype="multipart/form-data" formtarget="_blank"
+                    formnovalidate>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; rendered as buttons. When the click event occurs (typically because the user clicked the button), the user agent attempts to submit the form to the server.
+
+Attributes:
+===========
+&diams; formaction &rarr; override the &lt;form&gt; action attribute
+&diams; formmethod &rarr; override the &lt;form&gt; method attribute
+&diams; formnovalidate &rarr; override the &lt;form&gt; novalidate attribute
+&diams; formenctype &rarr; override the &lt;form&gt; enctype attribute
+&diams; formetarget &rarr; override the &lt;form&gt; target attribute
+&diams; type submit &rarr; submits the form data to the server.
+
+Best Practice:
+===========
+&diams; form &gt; input
+
+Other:
+===========
+&diams; inline tag | self-closing
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"submit"</span> <span class="attribute">formaction</span>=<span class="attribute-value">"file2.php"</span> <span class="attribute">formmethod</span>=<span class="attribute-value">"POST"</span> <span class="attribute">formenctype</span>=<span class="attribute-value">"multipart/form-data"</span> <span class="attribute">formtarget</span>=<span class="attribute-value">"_blank"</span> <span class="attribute">formnovalidate</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End input tag -->
+
+        <!-- Start input tag 2 -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">button & input tags | type submit - button - reset</label>
+                <button class="btns" type="submit">submit</button>
+                <button class="btns" type="button">button</button>
+                <button class="btns" type="reset">reset</button>
+                <input class="btns" type="submit">
+                <input class="btns" type="button" value="button">
+                <input class="btns" type="reset">
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; if it has a closing tag so it allows you to use text or img and etc inside the tag
+&diams; A button tag with no type attribute acts as submit
+
+Attributes:
+===========
+&diams; type submit &rarr; submits the form data to the server.
+&diams; type button &rarr; It can have client-side scripts associated with the element's events [javascript]
+&diams; type reset &rarr; resets all the form to their initial values.
+
+Best Practice:
+===========
+&diams; form &gt; input
+&diams; form &gt; button &gt; svg
+&diams; form &gt; button &gt; img
+&diams; form &gt; button &gt; context
+
+Other:
+===========
+&diams; inline tag | self-closing
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">button</span> <span class="attribute">type</span>=<span class="attribute-value">"submit"</span>&gt;submit&lt;/<span class="tag">button</span>&gt;
+&lt;<span class="tag">button</span> <span class="attribute">type</span>=<span class="attribute-value">"button"</span>&gt;button&lt;/<span class="tag">button</span>&gt;
+&lt;<span class="tag">button</span> <span class="attribute">type</span>=<span class="attribute-value">"reset"</span>&gt;reset&lt;/<span class="tag">button</span>&gt;
+
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"submit"</span>&gt;
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"button"</span> <span class="attribute">value</span>=<span class="attribute-value">"button"</span>&gt;
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"reset"</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End input tag -->
+
+        <!-- Start input tag 3 -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">input tag | type text</label>
+                <input type="text" required autocomplete="off" maxlength="10" pattern="[a-z]{4,8}" placeholder="insert your name" value="context" minlength="4" size="45" spellcheck="true">
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; creates basic single-line text fields.
+
+Attributes:
+===========
+&diams; required &rarr; makes this tag a must be filled out to submit the form | no need to type in this way required="required"
+&diams; autocomplete="off" &rarr; removes input history
+&diams; autofocus &rarr; on: focuses on the input field
+&diams; maxlength &rarr; The maximum number of characters the user can enter into the text input. This must be an integer value 0 or higher.
+&diams; minlength &rarr; The minimum number of characters the user can enter into the text input. This must be an non-negative integer value smaller than or equal to the value specified by maxlength.
+&diams; pattern &rarr; when specified, is a regular expression that the input's value must match in order for the value to pass constraint validation. example [a-z]{4,8} | customize validation ui by CSS &lt;span&gt; element to be placed after the form element, which acts as a holder for the icons. input:invalid+span:after {content: '✖';} | input:valid+span:after { content: '✓';} | works with [text, search, tel, url, email]
+&diams; placeholder &rarr; it's value disapears once you type | works with any input that allows you to type in it
+&diams; disabled &rarr; used to disable the tag [makes it grayed out] | doesn't work with server side
+&diams; value &rarr; contains input context
+&diams; readonly &rarr; makes you read it only and you can't edit it | works with server side
+&diams; size &rarr; a numeric value indicating how many characters wide the input field should be. The value must be a number greater than zero, and the default value is 20.
+&diams; spellcheck &rarr; used to indicate whether or not to enable spell checking for an element. | as google translate | false: Disable spell checking for this element. | true: Enable spell checking for this element.
+&diams; name, disabled, value, required & readonly &rarr; work with any input and textarea | [name & readonly work with server language as php] | value works with both server side and client side | required and disabled work with client side
+&diams; disabled &rarr; can be used for these tags [select, option, optgroup, input, textarea]
+&diams; form &rarr; if we have input tag which is outside the form tag and we wanna link it with the form when submitting | the value of form attribute at the input tag must be the same of form tag id to be linked
+
+Best Practice:
+===========
+&diams; form &gt; input
+
+Other:
+===========
+&diams; inline tag | self-closing
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"text"</span> <span class="attribute">required</span> <span class="attribute">autocomplete</span>=<span class="attribute-value">"off"</span> <span class="attribute">autofocus</span>=<span class="attribute-value">"on"</span> <span class="attribute">maxlength</span>=<span class="attribute-value">"10"</span> <span class="attribute">pattern</span>=<span class="attribute-value">"[a-z]{4,8}"</span> <span class="attribute">placeholder</span>=<span class="attribute-value">"insert your name"</span> <span class="attribute">disabled</span> <span class="attribute">value</span>=<span class="attribute-value">"context"</span> <span class="attribute">minlength</span>=<span class="attribute-value">"4"</span> <span class="attribute">spellcheck</span>=<span class="attribute-value">"true"</span> <span class="attribute">size</span>=<span class="attribute-value">"45"</span> <span class="attribute">readonly</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End input tag -->
+
+        <!-- Start input tag 4 -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">input tag | type password</label>
+                <input type="password">
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; provide a way for the user to securely enter a password.
+
+Attributes:
+===========
+&diams; required &rarr; makes this tag a must be filled out to submit the form | no need to type in this way required="required"
+&diams; autocomplete &rarr; on: Allow the browser or a password manager to automatically fill out the password field | off: Don't allow the browser or password manager to automatically fill out the password field. | current-password: Allow the browser or password manager to enter the current password for the site. | new-password: Allow the browser or password manager to automatically enter a new password for the site.
+&diams; autofocus &rarr; on: focuses on the input field
+&diams; maxlength &rarr; The maximum number of characters the user can enter into the text input. This must be an integer value 0 or higher.
+&diams; minlength &rarr; The minimum number of characters the user can enter into the text input. This must be an non-negative integer value smaller than or equal to the value specified by maxlength.
+&diams; pattern &rarr; when specified, is a regular expression that the input's value must match in order for the value to pass constraint validation. example [a-z]{4,8} | customize validation ui by CSS &lt;span&gt; element to be placed after the form element, which acts as a holder for the icons. input:invalid+span:after {content: '✖';} | input:valid+span:after { content: '✓';} | works with [text, search, tel, url, email]
+&diams; placeholder &rarr; it's value disapears once you type | works with any input that allows you to type in it
+&diams; disabled &rarr; used to disable the tag [makes it grayed out] | doesn't work with server side
+&diams; readonly &rarr; makes you read it only and you can't edit it | works with server side
+&diams; size &rarr; a numeric value indicating how many characters wide the input field should be. The value must be a number greater than zero, and the default value is 20.
+
+Best Practice:
+===========
+&diams; form &gt; input
+
+Other:
+===========
+&diams; inline tag | self-closing
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"password"</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End input tag -->
+
+        <!-- Start input tag 5 -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">input tag | type checkbox & radio</label>
+                <input type="checkbox" checked>
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="radio" name="radio" checked>
+                <input type="radio" name="radio">
+                <input type="radio" name="radio">
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; radio generally used in radio groups—collections of radio buttons describing a set of related options. Only one radio button in a given group can be selected at the same time. | select one box only (incase we have same value of name attribute) ●
+&diams; checkbox rendered by default as square boxes that are checked (ticked) when activated ✓
+
+Attributes:
+===========
+&diams; checked &rarr; indicating whether or not this radio button is the currently-selected item in the group
+&diams; value &rarr; the value of the radio when submitting the form, if the radio is currently toggled on
+
+Best Practice:
+===========
+&diams; form &gt; input
+
+Other:
+===========
+&diams; inline tag | self-closing
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"checkbox"</span>&gt;
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"radio"</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End input tag -->
+
+        <!-- Start input tag 6 -->
+        <section class="section">
+
+                <!-- START INTERFACE -->
+                <div class="user-interface">
+                    <label class="title-2">input tag | type email</label>
+                    <input type="email" multiple>
+                </div>
+                <!-- END INTERFACE -->
+
+                <!-- START CODE -->
+                <figure>
+                        <figcaption>
+                                <div class="lan">html</div>
+                                <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; used to let the user enter and edit an e-mail address, or, if the multiple attribute is specified, a list of e-mail addresses.
+
+Attributes:
+===========
+&diams; multiple &rarr; indicates that the user can enter a list of multiple e-mail addresses, separated by commas and, optionally, whitespace characters.
+
+Some examples of valid strings when multiple is specified:
+
+""
+"me@example"
+"me@example.org"
+"me@example.org,you@example.org"
+"me@example.org, you@example.org"
+"me@example.org,you@example.org,    us@example.org"
+
+Some examples of invalid strings:
+
+","
+"me"
+"me@example.org you@example.org"
+
+&diams; maxlength &rarr; The maximum number of characters the user can enter into the email input.
+&diams; minlength &rarr; The minimum number of characters the user can enter into the email input.
+&diams; placeholder &rarr; it's value disapears once you type | works with any input that allows you to type in it
+&diams; readonly &rarr; makes you read it only and you can't edit it | works with server side
+&diams; spellcheck &rarr; used to indicate whether or not to enable spell checking for an element. | as google translate | false: Disable spell checking for this element. | true: Enable spell checking for this element.
+&diams; size &rarr; a numeric value indicating how many characters wide the input field should be. The value must be a number greater than zero, and the default value is 20.
+&diams; pattern &rarr; when specified, is a regular expression that the input's value must match in order for the value to pass constraint validation. example ".+@beststartupever.com"
+
+Best Practice:
+===========
+&diams; form &gt; input
+
+Other:
+===========
+&diams; inline tag | self-closing
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"email"</span> <span class="attribute">multiple</span>&gt;</code></pre>
+
+                </figure>
+                <!-- END CODE -->
+
+        </section>
+        <!-- End input tag -->
+
+        <!-- Start input tag 7 -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">input tag | type file</label>
+                <input type="file" multiple style="text-indent:0;">
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; let the user choose one or more files from their device storage. Once chosen, the files can be uploaded to a server using form submission, or manipulated using JavaScript code and the File API.
+&diams; file type is used to upload file to server
+
+Attributes:
+===========
+&diams; accept &rarr; defines the file types the file input should accept. | ex:  accept=".jpg, .jpeg, .png"
+
+A valid case-insensitive filename extension, starting with a period (".") character. For example: .jpg, .pdf, or .doc.
+A valid MIME type string, with no extensions.
+The string audio/* meaning "any audio file".
+The string video/* meaning "any video file".
+The string image/* meaning "any image file".
+
+&diams; capture &rarr; specifies which camera to use for capture of image or video data
+&diams; files &rarr; A FileList object that lists every selected file. This list has no more than one member unless the multiple attribute is specified.
+&diams; multiple &rarr; the file input allows the user to select more than one file.
+
+Best Practice:
+===========
+&diams; form &gt; input
+
+Other:
+===========
+&diams; inline tag | self-closing
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"file"</span> <span class="attribute">multiple</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End input tag -->
+
+        <!-- Start input tag 8 -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">input tag | type image</label>
+                <input type="image" src="img/btn.png" style="width: auto;">
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; used to create graphical submit buttons, i.e. submit buttons that take the form of an image rather than text.
+&diams; if you have an image of a map which has many countries then by clicking on it you will get x,y points which will determine the wanted country
+
+Attributes:
+===========
+&diams; formaction 
+&diams; formenctype 
+&diams; formmethod 
+&diams; formnovalidate 
+&diams; formtarget 
+&diams; height 
+&diams; width
+&diams; src &rarr; The URL from which to load the image
+&diams; alt &rarr; provides an alternate string to use as the button's label if the image cannot be shown
+
+Best Practice:
+===========
+&diams; form &gt; input
+
+Other:
+===========
+&diams; inline tag | self-closing
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"image"</span> <span class="attribute">src</span>=<span class="attribute-value">"img/btn.png"</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End input tag -->
+
+        <!-- Start input tag 9 -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">input tag | type hidden</label>
+                <input type="hidden" value="xm234jq">
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; let web developers include data that cannot be seen or modified by users when a form is submitted. For example, the ID of the content that is currently being ordered or edited, or a unique security token. Hidden inputs are completely invisible in the rendered page, and there is no way to make it visible in the page's content.
+&diams; a hidden input that you may need it for server side (php) or client side (javascript) with a form
+
+Attributes:
+===========
+&diams; global attributes 
+
+Best Practice:
+===========
+&diams; form &gt; input
+
+Other:
+===========
+&diams; inline tag | self-closing
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"hidden"</span> <span class="attribute">value</span>=<span class="attribute-value">"xm234jq"</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End input tag -->
+
+        <!-- Start input tag 10 -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">input tag | type color</label>
+                <input type="color" name="theme" value="#e66465">
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; provide a user interface element that lets a user specify a color, either by using a visual color picker interface or by entering the color into a text field in hexadecimal format. Only simple colors (with no alpha channel) are allowed. The values are compatible with CSS.
+
+Attributes:
+===========
+&diams; value &rarr; for setting the default color in hex
+
+Best Practice:
+===========
+&diams; form &gt; input
+
+Other:
+===========
+&diams; inline tag | self-closing
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"color"</span> <span class="attribute">name</span>=<span class="attribute-value">"theme"</span> <span class="attribute">value</span>=<span class="attribute-value">"#e66465"</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End input tag -->
+
+        <!-- Start input tag 11 -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">input tag | type range</label>
+                <input type="range" name="choose" min="0" max="100" step="25" value="50">
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; let the user specify a numeric value which must be no less than a given value, and no more than another given value.
+&diams; input tag type range has attribute step which jumps between min and max by 25
+
+Attributes:
+===========
+&diams; min &rarr; The lowest value in the range of permitted values.
+&diams; max &rarr; The greatest value in the range of permitted values.
+&diams; step &rarr; the amount that the input would jump from min to max | any: means that no stepping is implied, and any value is allowed
+&diams; value &rarr; the default amount
+
+Best Practice:
+===========
+&diams; form &gt; input
+
+Other:
+===========
+&diams; inline tag | self-closing
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"range"</span> <span class="attribute">name</span>=<span class="attribute-value">"choose"</span> <span class="attribute">min</span>=<span class="attribute-value">"0"</span> <span class="attribute">max</span>=<span class="attribute-value">"100"</span> <span class="attribute">step</span>=<span class="attribute-value">"25"</span> <span class="attribute">value</span>=<span class="attribute-value">"50"</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End input tag -->
+
+        <!-- Start input tag 12 -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">input tag | type number</label>
+                <input type="number" min="0" max="20" step="5">
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; let the user enter a number. They include built-in validation to reject non-numerical entries
+&diams; step means jumps between min and max by (step value)
+
+Attributes:
+===========
+&diams; maxlength &rarr; The maximum number of characters the user can enter into the text input. This must be an integer value 0 or higher.
+&diams; minlength &rarr; The minimum number of characters the user can enter into the text input. This must be an non-negative integer value smaller than or equal to the value specified by maxlength.
+&diams; placeholder &rarr; it's value disapears once you type | works with any input that allows you to type in it
+&diams; value &rarr; contains input context
+&diams; readonly &rarr; makes you read it only and you can't edit it | works with server side
+&diams; step &rarr; the amount that the input would jump from min to max | any: means that no stepping is implied, and any value is allowed
+
+Best Practice:
+===========
+&diams; form &gt; input
+
+Other:
+===========
+&diams; inline tag | self-closing
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"number"</span> <span class="attribute">min</span>=<span class="attribute-value">"0"</span> <span class="attribute">max</span>=<span class="attribute-value">"20"</span> <span class="attribute">step</span>=<span class="attribute-value">"5"</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End input tag -->
+
+        <!-- Start input tag 13 -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">input tag | type search</label>
+                <input type="search" name="search">
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                    </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; text fields designed for the user to enter search queries into. These are functionally identical to text inputs, but may be styled differently by the user agent.
+
+Attributes:
+===========
+&diams; maxlength &rarr; The maximum number of characters the user can enter into the text input. This must be an integer value 0 or higher.
+&diams; minlength &rarr; The minimum number of characters the user can enter into the text input. This must be an non-negative integer value smaller than or equal to the value specified by maxlength.
+&diams; pattern &rarr; when specified, is a regular expression that the input's value must match in order for the value to pass constraint validation. example [a-z]{4,8} | customize validation ui by CSS &lt;span&gt; element to be placed after the form element, which acts as a holder for the icons. input:invalid+span:after {content: '✖';} | input:valid+span:after { content: '✓';} | works with [text, search, tel, url, email]
+&diams; placeholder &rarr; it's value disapears once you type | works with any input that allows you to type in it
+&diams; readonly &rarr; makes you read it only and you can't edit it | works with server side
+&diams; size &rarr; a numeric value indicating how many characters wide the input field should be. The value must be a number greater than zero, and the default value is 20.
+&diams; spellcheck &rarr; used to indicate whether or not to enable spell checking for an element. | as google translate | false: Disable spell checking for this element. | true: Enable spell checking for this element.
+&diams; aria-label &rarr; This should be a descriptive text label that will be read out by the screenreader; it's used as a non-visual equivalent to &lt;label&gt;.
+
+Best Practice:
+===========
+&diams; form &gt; input
+
+Other:
+===========
+&diams; inline tag | self-closing
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"search"</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End input tag -->
+
+        <!-- Start input tag 14 -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">input tag | type url</label>
+                <input type="url">
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; used to let the user enter and edit a URL.
+
+Attributes:
+===========
+&diams; maxlength &rarr; The maximum number of characters the user can enter into the text input. This must be an integer value 0 or higher.
+&diams; minlength &rarr; The minimum number of characters the user can enter into the text input. This must be an non-negative integer value smaller than or equal to the value specified by maxlength.
+&diams; pattern &rarr; when specified, is a regular expression that the input's value must match in order for the value to pass constraint validation. example pattern=".*\.myco\..*" | customize validation ui by CSS &lt;span&gt; element to be placed after the form element, which acts as a holder for the icons. input:invalid+span:after {content: '✖';} | input:valid+span:after { content: '✓';} | works with [text, search, tel, url, email]
+&diams; placeholder &rarr; it's value disapears once you type | works with any input that allows you to type in it
+&diams; readonly &rarr; makes you read it only and you can't edit it | works with server side
+&diams; size &rarr; a numeric value indicating how many characters wide the input field should be. The value must be a number greater than zero, and the default value is 20.
+&diams; spellcheck &rarr; used to indicate whether or not to enable spell checking for an element. | as google translate | false: Disable spell checking for this element. | true: Enable spell checking for this element.
+
+Best Practice:
+===========
+&diams; form &gt; input
+
+Other:
+===========
+&diams; inline tag | self-closing
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"url"</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End input tag -->
+
+        <!-- Start input tag 15 -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">input tag | type tel</label>
+                <input type="tel">
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; used to let the user enter and edit a telephone number. 
+
+Attributes:
+===========
+&diams; maxlength &rarr; The maximum number of characters the user can enter into the text input. This must be an integer value 0 or higher.
+&diams; minlength &rarr; The minimum number of characters the user can enter into the text input. This must be an non-negative integer value smaller than or equal to the value specified by maxlength.
+&diams; pattern &rarr; when specified, is a regular expression that the input's value must match in order for the value to pass constraint validation. example [0-9]{3}-[0-9]{3}-[0-9]{4} | customize validation ui by CSS &lt;span&gt; element to be placed after the form element, which acts as a holder for the icons. input:invalid+span:after {content: '✖';} | input:valid+span:after { content: '✓';} | works with [text, search, tel, url, email]
+&diams; placeholder &rarr; it's value disapears once you type | works with any input that allows you to type in it
+&diams; readonly &rarr; makes you read it only and you can't edit it | works with server side
+&diams; size &rarr; a numeric value indicating how many characters wide the input field should be. The value must be a number greater than zero, and the default value is 20.
+
+Best Practice:
+===========
+&diams; form &gt; input
+
+Other:
+===========
+&diams; inline tag | self-closing
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"tel"</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End input tag -->
+
+        <!-- Start input tag 16 -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">input tag | type time, date, datetime-local, month & week</label>
+                <input type="time" min="13:00" max="17:00" value="15:20" pattern="[0-9]{2}-[0-9]{2}">
+                <input type="datetime-local" min="2017-06-01T08:30" max="2017-06-30T16:30" value="2018-06-12T19:30" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}">
+                <input type="date" min="2017-04-01" max="2017-04-30" value="2017-06-01" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
+                <input type="month" min="1900-01" max="1999-12" value="2018-05" pattern="[0-9]{4}-[0-9]{2}">
+                <input type="week" min="2018-W18" max="2018-W26" value="2018-W19">
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; time | create input fields designed to let the user easily enter a time (hours and minutes, and optionally seconds).
+&diams; datetime-local | create input controls that let the user easily enter both a date and a time, including the year, month, and day as well as the time in hours and minutes.
+&diams; date | create input fields that let the user enter a date, either using a text box that automatically validates the content, or using a special date picker interface.
+&diams; month | create input fields that let the user enter a month and year allowing a month and year to be easily entered. The value is a string whose value is in the format "YYYY-MM", where YYYY is the four-digit year and MM is the month number.
+&diams; week | create input fields allowing easy entry of a year plus the ISO 8601 week number during that year.
+&diams; you gotta use select tag and option for older browsers that don't support the native input.
+&diams; sizing doesn't work at all you gotta use css instead
+
+Attributes:
+===========
+&diams; min 
+&diams; max
+&diams; value
+&diams; step
+&diams; time &rarr; time only | hh:mm:ss | step default value is 60 seconds works with secconds
+&diams; datetime-local &rarr; this input tag type datetime-local contains calender and time | yyyy-MM-ddThh:mm | step default value is 60 seconds works with secconds
+&diams; date &rarr; this tag input date type contains calender only | yyyy-mm-dd. | step default value is 1 day works with days
+&diams; month &rarr; this input tag type month supports month and year | yyyy-MM. | step default value is 1 month works with months
+&diams; week &rarr; this input tag type week contains week number and year | yyyy-Www | step default value is 1 week works with weeks
+
+Best Practice:
+===========
+&diams; form &gt; input
+
+Other:
+===========
+&diams; inline tag | self-closing
+
+--&gt;
+
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"time"</span> <span class="attribute">min</span>=<span class="attribute-value">"13:00"</span> <span class="attribute">max</span>=<span class="attribute-value">"17:00"</span> <span class="attribute">value</span>=<span class="attribute-value">"15:20"</span> <span class="attribute">pattern</span>=<span class="attribute-value">"[0-9]{2}-[0-9]{2}"</span>&gt;
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"datetime-local"</span> <span class="attribute">min</span>=<span class="attribute-value">"2017-06-01T08:30"</span> <span class="attribute">max</span>=<span class="attribute-value">"2017-06-30T16:30"</span> <span class="attribute">value</span>=<span class="attribute-value">"2018-06-12T19:30"</span> <span class="attribute">pattern</span>=<span class="attribute-value">"[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}"</span>&gt;
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"date"</span> <span class="attribute">min</span>=<span class="attribute-value">"2017-04-01"</span> <span class="attribute">max</span>=<span class="attribute-value">"2017-04-30"</span> <span class="attribute">value</span>=<span class="attribute-value">"2017-06-01"</span> <span class="attribute">pattern</span>=<span class="attribute-value">"[0-9]{4}-[0-9]{2}-[0-9]{2}"</span>&gt;
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"month"</span> <span class="attribute">min</span>=<span class="attribute-value">"1900-01"</span> <span class="attribute">max</span>=<span class="attribute-value">"1999-12"</span> <span class="attribute">value</span>=<span class="attribute-value">"2018-05"</span> <span class="attribute">pattern</span>=<span class="attribute-value">"[0-9]{4}-[0-9]{2}"</span>&gt;
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"week"</span> <span class="attribute">min</span>=<span class="attribute-value">"2018-W18"</span> <span class="attribute">max</span>=<span class="attribute-value">"2018-W26"</span> <span class="attribute">value</span>=<span class="attribute-value">"2018-W19"</span> <span class="attribute">pattern</span>=<span class="attribute-value">"[0-9]{2}-[0-9]{2}"</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End input tag -->
+
+        <!-- Start output tag -->
+        <section class="section">
+
+                <!-- START INTERFACE -->
+                <div class="user-interface">
+                    <label class="title-2">output tag</label>
+                    <form oninput="result.value = parseInt(age.value) * parseInt(days.value) + ' Days'">
+                        <input type="text" name="age">
+                        <input type="hidden" name="days" value="365">
+                        <output name="result"></output>
+                    </form>
+                </div>
+                <!-- END INTERFACE -->
+    
+                <!-- START CODE -->
+                <figure>
+    
+                        <figcaption>
+                                <div class="lan">html</div>
+                                <div class="win-btns"><span></span><span></span><span></span></div>
+                            </figcaption>
+    
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; is a container element into which a site or app can inject the results of a calculation or the outcome of a user action.
+
+Attributes:
+===========
+&diams; oninput &rarr; has all the calculations
+&diams; for &rarr; A space-separated list of other elements’ ids, indicating that those elements contributed input values to (or otherwise affected) the calculation.
+&diams; name &rarr; The element's name; used to identify this &lt;output&gt; during form submission.
+
+Best Practice:
+===========
+&diams; form &gt; output
+
+Other:
+===========
+&diams; inline tag
+
+--&gt;
+
+&lt;<span class="tag">form</span> <span class="attribute">oninput</span>=<span class="attribute-value">"result.value = parseInt(age.value) * parseInt(days.value) + ' Days'"</span>&gt;
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"text"</span> <span class="attribute">name</span>=<span class="attribute-value">"age"</span>&gt;
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"hidden"</span> <span class="attribute">name</span>=<span class="attribute-value">"days"</span> <span class="attribute">value</span>=<span class="attribute-value">"365"</span>&gt;
+&lt;<span class="tag">output</span> <span class="attribute">name</span>=<span class="attribute-value">"result"</span>&gt;&lt;/<span class="tag">output</span>&gt;
+&lt;/<span class="tag">form</span>&gt;</code></pre>
+    
+                </figure>
+                <!-- END CODE -->
+    
+        </section>
+        <!-- End output tag -->
+
+        <!-- Start textarea tag -->
+        <section class="section">
+
+                <!-- START INTERFACE -->
+                <div class="user-interface">
+                    <label class="title-2">textarea tag</label>
+                    <textarea cols="30" rows="10"></textarea>
+                </div>
+                <!-- END INTERFACE -->
+    
+                <!-- START CODE -->
+                <figure>
+    
+                        <figcaption>
+                                <div class="lan">html</div>
+                                <div class="win-btns"><span></span><span></span><span></span></div>
+                            </figcaption>
+    
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.
+&diams; readonly does't allow you to write in it but you can use it in a multiple steps form by javascript ex: if the above input has been filled out then remove readonly
+
+Attributes:
+===========
+&diams; autocomplete="off" &rarr; removes input history
+&diams; autofocus &rarr; on: focuses on the input field
+&diams; disabled &rarr; used to disable the tag [makes it grayed out] | doesn't work with server side
+&diams; cols &rarr; The visible width of the text control, in average character widths. If it is specified, it must be a positive integer. If it is not specified, the default value is 20.
+&diams; rows &rarr; The number of visible text lines for the control.
+&diams; placeholder &rarr; it's value disapears once you type | works with any input that allows you to type in it
+&diams; readonly &rarr; makes you read it only and you can't edit it | works with server side
+&diams; spellcheck &rarr; used to indicate whether or not to enable spell checking for an element. | as google translate | false: Disable spell checking for this element. | true: Enable spell checking for this element.
+&diams; maxlength &rarr; The maximum number of characters the user can enter into the text input. This must be an integer value 0 or higher.
+&diams; minlength &rarr; The minimum number of characters the user can enter into the text input. This must be an non-negative integer value smaller than or equal to the value specified by maxlength.
+
+Best Practice:
+===========
+&diams; form &gt; textarea
+
+Other:
+===========
+&diams; inline tag 
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">textarea</span> <span class="attribute">cols</span>=<span class="attribute-value">"30"</span> <span class="attribute">rows</span>=<span class="attribute-value">"10"</span> <span class="attribute">readonly</span>&gt;&lt;/<span class="tag">textarea</span>&gt;</code></pre>
+
+                </figure>
+                <!-- END CODE -->
+    
+        </section>
+        <!-- End textarea tag -->
+
+        <!-- Start select tag -->
+        <section class="section">
+
+                <!-- START INTERFACE -->
+                <div class="user-interface">
+                    <label class="title-2">select tag</label>
+                    <select size="4" multiple style="height:auto;">
+                        <optgroup label="Chrome">
+                            <option selected value="ver 70">ver 70</option>
+                            <option value="ver 71">ver 71</option>
+                        </optgroup>
+                        <optgroup label="Firefox">
+                                <option value="ver 70">ver 70</option>
+                                <option value="ver 71">ver 71</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <!-- END INTERFACE -->
+    
+                <!-- START CODE -->
+                <figure>
+    
+                        <figcaption>
+                                <div class="lan">html</div>
+                                <div class="win-btns"><span></span><span></span><span></span></div>
+                            </figcaption>
+    
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; select tag represents a control that provides a menu of options
+&diams; optgroup tag is to classify the options
+&diams; option tag to be selected
+
+Attributes:
+===========
+&diams; autocomplete &rarr; providing a hint for a user agent's autocomplete feature.
+&diams; autofocus &rarr; on: focuses on the input field
+&diams; required &rarr; makes this tag a must be filled out to submit the form 
+&diams; disabled &rarr; used to disable the tag [makes it grayed out] | doesn't work with server side
+&diams; multiple &rarr; allows you to choose more than one option but you gotta press ctrl while selecting
+&diams; size &rarr; how many rows will be shown | if specified then there is no dorp down menu 
+&diams; selected &rarr; make an option tag selected by default
+&diams; label &rarr; for naming optgroup tag 
+
+Best Practice:
+===========
+&diams; form &gt; select &gt; option
+&diams; form &gt; select &gt; optgroup &gt; option
+
+Other:
+===========
+&diams; block tag
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">select</span> <span class="attribute">size</span>=<span class="attribute-value">"4"</span> <span class="attribute">multiple</span>&gt;
+&lt;<span class="tag">optgroup</span> <span class="attribute">label</span>=<span class="attribute-value">"Chrome"</span>&gt;
+&lt;<span class="tag">option</span> <span class="attribute">selected</span> <span class="attribute">value</span>=<span class="attribute-value">"ver 70"</span>&gt;ver 70&lt;/<span class="tag">option</span>&gt;
+&lt;<span class="tag">option</span> <span class="attribute">value</span>=<span class="attribute-value">"ver 71"</span>&gt;ver 71&lt;/<span class="tag">option</span>&gt;
+&lt;/<span class="tag">optgroup</span>&gt;
+&lt;<span class="tag">optgroup</span> <span class="attribute">label</span>=<span class="attribute-value">"Firefox"</span>&gt;
+&lt;<span class="tag">option</span> <span class="attribute">value</span>=<span class="attribute-value">"ver 70"</span>&gt;ver 70&lt;/<span class="tag">option</span>&gt;
+&lt;<span class="tag">option</span> <span class="attribute">value</span>=<span class="attribute-value">"ver 71"</span>&gt;ver 71&lt;/<span class="tag">option</span>&gt;
+&lt;/<span class="tag">optgroup</span>&gt;
+&lt;/<span class="tag">select</span>&gt;</code></pre>
+    
+                </figure>
+                <!-- END CODE -->
+    
+        </section>
+        <!-- End select tag -->
+
+        <!-- Start fieldset tag -->
+        <section class="section">
+
+                <!-- START INTERFACE -->
+                <div class="user-interface">
+                    <label class="title-2">fieldset tag</label>
+                    <fieldset>
+                        <legend>Application Form</legend>
+                        <input type="text" placeholder="username">
+                        <input type="password" placeholder="password" style="margin-top: 20px;">
+                    </fieldset>
+                </div>
+                <!-- END INTERFACE -->
+    
+                <!-- START CODE -->
+                <figure>
+    
+                        <figcaption>
+                                <div class="lan">html</div>
+                                <div class="win-btns"><span></span><span></span><span></span></div>
+                            </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; used to group several controls as well as labels &lt;label&gt; within a web form.
+
+Attributes:
+===========
+&diams; disabled 
+&diams; name
+&diams; form 
+
+Best Practice:
+===========
+&diams; form &gt; fieldset &gt; legend, input
+
+Other:
+===========
+&diams; block tag [fieldset,legend]
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">fieldset</span>&gt;
+&lt;<span class="tag">legend</span>&gt;Application Form&lt;/<span class="tag">legend</span>&gt;
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"text"</span> <span class="attribute">placeholder</span>=<span class="attribute-value">"username"</span>&gt;
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"password"</span> <span class="attribute">placeholder</span>=<span class="attribute-value">"password"</span>&gt;
+&lt;/<span class="tag">fieldset</span>&gt;</code></pre>
+
+                </figure>
+                <!-- END CODE -->
+    
+        </section>
+        <!-- End fieldset tag -->
+
+        <!-- Start datalist tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">datalist tag</label>
+
+                <label class="title-2 title-3">input | type text</label>
+                <input type="text" list="browsers">
+                <datalist id="browsers">
+                    <option value="Internet Explorer">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
+                </datalist>
+
+                <label class="title-2 title-3">input | type range</label>
+                <input type="range" list="tickmarks">
+                <datalist id="tickmarks">
+                <option value="0" label="0%">
+                <option value="10">
+                <option value="20">
+                <option value="30">
+                <option value="40">
+                <option value="50" label="50%">
+                <option value="60">
+                <option value="70">
+                <option value="80">
+                <option value="90">
+                <option value="100" label="100%">
+                </datalist>
+
+                <label class="title-2 title-3">input | type email</label>
+                <input type="email" list="defaultEmails">
+                <datalist id="defaultEmails">
+                <option value="jbond007@mi6.defence.gov.uk">
+                <option value="jbourne@unknown.net">
+                <option value="nfury@shield.org">
+                <option value="tony@starkindustries.com">
+                <option value="hulk@grrrrrrrr.arg">
+                </datalist>
+
+                <label class="title-2 title-3">input | type number</label>
+                <input type="number" list="defaultNumbers">
+                <datalist id="defaultNumbers">
+                <option value="10045678">
+                <option value="103421">
+                <option value="11111111">
+                <option value="12345678">
+                <option value="12999922">
+                </datalist>
+
+                <label class="title-2 title-3">input | type url</label>
+                <input type="url" list="defaultURLs">
+                <datalist id="defaultURLs">
+                <option value="https://developer.mozilla.org/" label="MDN Web Docs">
+                <option value="http://www.google.com/" label="Google">
+                <option value="http://www.microsoft.com/" label="Microsoft">
+                <option value="https://www.mozilla.org/" label="Mozilla">
+                <option value="http://w3.org/" label="W3C">
+                </datalist>
+
+                <label class="title-2 title-3">input | type tel</label>
+                <input type="tel" list="defaultTels">
+                <datalist id="defaultTels">
+                <option value="111-1111-1111">
+                <option value="122-2222-2222">
+                <option value="333-3333-3333">
+                <option value="344-4444-4444">
+                </datalist>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; contains a set of &lt;option&gt; elements that represent the values available for other controls.
+&diams; the value of &lt;input&gt; list attribute should be the same as the value of the &lt;datalist&gt; id attribute | used with input type [email, range, tel, text, url, number]
+&diams; option tag in this case prefered not to have a closing tag and with value attribute
+
+Attributes:
+===========
+&diams; label &rarr; use in option tag when it's inside the datalist tag only
+&diams; list &rarr; used with input tag to link it with datalist tag by id with the same value
+
+Best Practice:
+===========
+&diams; form &gt; datalist &gt; option
+
+Other:
+===========
+&diams; block tag
+
+--&gt;
+
+&lt;<span class="tag">input</span> <span class="attribute">type</span>=<span class="attribute-value">"text"</span> <span class="attribute">list</span>=<span class="attribute-value">"browsers"</span>&gt;
+&lt;<span class="tag">datalist</span> <span class="attribute">id</span>=<span class="attribute-value">"browsers"</span>&gt;
+&lt;<span class="tag">option</span> <span class="attribute">value</span>=<span class="attribute-value">"Internet Explorer"</span>&gt;
+&lt;<span class="tag">option</span> <span class="attribute">value</span>=<span class="attribute-value">"Firefox"</span>&gt;
+&lt;<span class="tag">option</span> <span class="attribute">value</span>=<span class="attribute-value">"Chrome"</span>&gt;
+&lt;<span class="tag">option</span> <span class="attribute">value</span>=<span class="attribute-value">"Opera"</span>&gt;
+&lt;<span class="tag">option</span> <span class="attribute">value</span>=<span class="attribute-value">"Safari"</span>&gt;
+&lt;/<span class="tag">datalist</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End datalist tag -->
+
+        <!-- Start progress tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                    <label class="title-2">progress tag</label>
+                <progress value="5" max="10"></progress>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; displays an indicator showing the completion progress of a task, typically displayed as a progress bar.
+
+Attributes:
+===========
+&diams; value &rarr; specifies how much of the task that has been completed.
+&diams; max &rarr;  describes how much work the task indicated by the progress element requires.
+
+Best Practice:
+===========
+&diams; body &gt; progress
+&diams; p &gt; progress
+
+Other:
+===========
+&diams; block tag
+&check; Full Support
+
+--&gt;
+
+&lt;<span class="tag">progress</span> <span class="attribute">value</span>=<span class="attribute-value">"5"</span> <span class="attribute">max</span>=<span class="attribute-value">"10"</span>&gt;&lt;/<span class="tag">progress</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End progress tag -->
+
+        <!-- Start meter tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                    <label class="title-2">meter tag</label>
+                <p>he got a <meter min="0" max="1" value="0.29" low="0.3" high="0.5" optimum="0.7"></meter> on the exam</p>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; represents either a scalar value within a known range or a fractional value. 
+&diams; meter tag is used to refer to the qualilty [bad, good, optimum]
+
+Attributes:
+===========
+&diams; min &rarr; The lower numeric bound of the measured range.
+&diams; max &rarr; The upper numeric bound of the measured range.
+&diams; value &rarr; The current numeric value 
+&diams; low &rarr; The upper numeric bound of the low end of the measured range.
+&diams; high &rarr; The lower numeric bound of the high end of the measured range. 
+&diams; optimum &rarr;  the optimal numeric value.
+&diams; form &rarr; associates the element with a form element that has ownership of the meter element. 
+
+Best Practice:
+===========
+&diams; body &gt; meter
+&diams; p &gt; meter
+
+Other:
+===========
+&diams; block tag
+
+--&gt;
+
+&lt;<span class="tag">meter</span> <span class="attribute">min</span>=<span class="attribute-value">"0"</span> <span class="attribute">max</span>=<span class="attribute-value">"1"</span> <span class="attribute">value</span>=<span class="attribute-value">"0.29"</span> <span class="attribute">low</span>=<span class="attribute-value">"0.3"</span> <span class="attribute">high</span>=<span class="attribute-value">"0.5"</span> <span class="attribute">optimum</span>=<span class="attribute-value">"0.7"</span>&gt;&lt;/<span class="tag">meter</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End meter tag -->
+
+        <!-- Start svg | canvas -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2"> svg vs canvas</label>
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+&diams; svg &rarr;  is scalable and used by adobe illustrator or xml code
+&diams; canvas &rarr;  is bad for rendering text and not scalable & used by javascript
+
+--&gt;
+
+&lt;<span class="tag">svg</span>&gt;&lt;/<span class="tag">svg</span>&gt;
+&lt;<span class="tag">canvas</span>&gt;&lt;/<span class="tag">canvas</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End svg | canvas -->
+
+        <!-- Start script tag -->
+        <section class="section">
+
+            <!-- START INTERFACE -->
+            <div class="user-interface">
+                <label class="title-2">script tag</label>
+                <img src="img/script.png" style="height:auto;">
+            </div>
+            <!-- END INTERFACE -->
+
+            <!-- START CODE -->
+            <figure>
+
+                    <figcaption>
+                            <div class="lan">html</div>
+                            <div class="win-btns"><span></span><span></span><span></span></div>
+                        </figcaption>
+
+<pre><code>&lt;&excl;--
+
+Notes:
+===========
+&diams; This tag for rendering javascript and must be at the last line of head or body tags and better to be in body | no need for minetype ex: [type="javascript"]
+&diams; it's better to use defer attribute cause it downloads during the html loading and excute after the html fully loading
+
+Attributes:
+===========
+&diams; without any attributes &rarr; the html file will be parsed until the script file is hit, at that point parsing wil stop and a requset will be made to fetch the file (if it's external). the script will then be excuted before parsing is resumed
+&diams; async &rarr; async downloads the file during html parsing and will pause the html parser to excute it when it has finished downloading
+&diams; defer &rarr; defer downloads the file during html parsing and will only excute it after the parser has completed. defer are also guarenteed to excute in the order the they appear in the doucment
+
+Best Practice:
+===========
+&diams; body &gt; script
+&diams; body &gt; head &gt; script
+
+--&gt;
+
+&lt;<span class="tag">script</span> <span class="attribute">defer</span> <span class="attribute">src</span>=<span class="attribute-value">"app.js"</span>&gt;&lt;/<span class="tag">script</span>&gt;</code></pre>
+
+            </figure>
+            <!-- END CODE -->
+
+        </section>
+        <!-- End script tag -->
+
+    </main>
+    <!-- END CODE -->
+
+</body>
+
+</html>
